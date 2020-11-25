@@ -1,0 +1,157 @@
+/* Global reset */
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body{
+    font-family: 'Open Sans', sans-serif, Georgia, 'Times New Roman', Times, serif;
+    box-sizing: border-box;
+}
+
+/* Header section */
+
+.header__container {
+   display: flex;
+   height: 4rem;
+   width: 100%;
+   flex-direction: row;
+   align-items: center;
+   justify-content: space-around;
+   border-bottom: 1px solid #e2e2e2;
+}
+
+.header__icons {
+    display: flex;
+    align-items: center;
+    font-size: 2rem;
+    margin: 0 3rem 0 3rem;
+}
+
+.icon-1 {
+    margin-right: 3rem;
+}
+
+.header__text {    
+    font-weight: 700;
+    font-size: 1.6rem;
+    text-transform: uppercase;
+    display: inline;
+}
+.header__left-panel {
+    display: flex;
+}
+
+.logo__container {    
+   }
+
+.logo_img {
+    width: 20rem;
+}
+
+.button__container {
+    display: flex;
+
+}
+
+.btn {
+    background-color: rgb(50, 104, 145);
+    color: white;
+    padding: .5rem 1rem;
+    border: none;
+    border-radius: .5rem;
+    
+}
+.btn:active {
+    outline: none;
+}
+.btn:last-child {
+    margin-left: .5rem;
+    margin-right: 1rem;
+}
+
+/* Header section ends here */
+/* article section */
+article{
+    margin: auto;
+    align-items: center;
+}
+article h1 {
+    text-align: center;
+    margin: 3rem 0 3rem 0;
+    font-weight: 900;
+    text-align: center;
+    font-style: italic;
+    font-size: 2.5rem;
+    line-height: 2.5rem;
+    letter-spacing: 3px;
+    color: #121212;
+}
+
+.article__top {
+    text-align: center;
+}
+
+.article__img-top {
+    height: auto;
+    width: 70%;
+}
+
+.article__top h3 {
+    margin: auto;
+    color: #666;
+    width: 70%;
+} 
+
+.main__article{
+    width: 55rem;
+    margin: auto;
+    font-size: 1.8rem;
+    word-spacing: 1px;
+    line-height: 1.5;
+    text-align: justify;
+  text-justify: inter-word;
+    font-weight: 500;
+    color: #333;
+    
+}
+
+.main__article-heading {
+    font-weight: bold;
+    font-size: 1.5rem;
+    margin-top: 2rem;
+
+}
+.main__article-heading a {
+    text-decoration: none;
+    color: #121212;
+    }
+
+.main__article-sub {
+    display: flex;
+    justify-content: space-between;
+    margin: 2rem 0;
+}
+.article__details p {
+    margin-bottom: 1rem;
+}
+
+/* end article section */
+/* footer section */
+
+@media (max-width: 120rem){
+
+}
+@media (max-width: 60rem){
+
+}
+@media (min-width: 59.9rem){
+
+}
