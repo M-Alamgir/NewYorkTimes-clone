@@ -60,9 +60,6 @@ body {
   display: flex;
 }
 
-.logo__container {
-}
-
 .logo_img {
   width: 20rem;
 }
@@ -82,6 +79,7 @@ body {
   font-size: 1.2rem;
   letter-spacing: 0.5px;
 }
+
 .btn:active {
   outline: none;
 }
@@ -108,7 +106,6 @@ article h1 {
   text-align: center;
   margin: 10rem 0 3rem 0;
   font-weight: 900;
-  text-align: center;
   font-style: italic;
   font-size: 2.5rem;
   line-height: 2.5rem;
@@ -155,8 +152,8 @@ article h1 {
   font-size: 1.5rem;
   margin-top: 2rem;
 }
+
 .main__article-heading a {
-  text-decoration: none;
   color: #333;
   text-decoration: underline;
 }
@@ -220,54 +217,47 @@ article h1 {
 .inflation__section p {
   width: 20rem;
   font-size: 1.1rem;
-  word-spacing: 1.1;
 }
 
 .first-row {
+  position: absolute;
   top: 22rem;
 }
 
 .second-row {
+  position: absolute;
   top: 48rem;
 }
 
 .inflation__section-p1 {
-  position: absolute;
   left: 0;
 }
 
 .inflation__section-p2 {
-  position: absolute;
   left: 23rem;
 }
 
 .inflation__section-p3 {
-  position: absolute;
   left: 46rem;
 }
 
 .inflation__section-p4 {
-  position: absolute;
   left: 68rem;
 }
 
 .inflation__section-p5 {
-  position: absolute;
   left: 0rem;
 }
 
 .inflation__section-p6 {
-  position: absolute;
   left: 23rem;
 }
 
 .inflation__section-p7 {
-  position: absolute;
   left: 46rem;
 }
 
 .inflation__section-p8 {
-  position: absolute;
   left: 68rem;
 }
 
@@ -302,7 +292,7 @@ article h1 {
   background-color: rgb(50, 104, 145);
   color: #fff;
   font-size: 1.5rem;
-  letter-spacing: 1.1;
+  letter-spacing: 1.1px;
   font-weight: 500;
   border: none;
   border-radius: 2px;
@@ -360,16 +350,15 @@ article h1 {
   margin-top: 1rem;
   margin-bottom: 0.5rem;
 }
-
-.suggested-title > a:hover {
-  color: #666;
-}
-
 .suggested-title > a {
   text-decoration: none;
   font-size: 1.5rem;
   text-transform: capitalize;
   color: #121212;
+}
+
+.suggested-title > a:hover {
+  color: #666;
 }
 
 .popular {
@@ -385,12 +374,6 @@ article h1 {
   margin-bottom: 2rem;
 }
 
-.popular__list > p {
-  font-size: 1.8rem;
-  border-top: 1px solid rgb(207, 207, 207);
-  padding: 1.5rem 0;
-}
-
 .popular__link {
   text-decoration: none;
   font-weight: 600;
@@ -401,6 +384,11 @@ article h1 {
   color: #333;
 }
 
+.popular__list > p {
+  font-size: 1.8rem;
+  border-top: 1px solid rgb(207, 207, 207);
+  padding: 1.5rem 0;
+}
 /* Suggested News section ends here */
 
 /* editor section */
@@ -482,20 +470,6 @@ footer {
   margin-top: 1rem;
 }
 
-.footer__list-sub li {
-  margin-top: 1rem;
-}
-
-.footer__list-sub > li > a {
-  text-decoration: none;
-  color: #121212;
-  text-transform: capitalize;
-}
-
-.footer__list-sub > li > a:hover {
-  text-decoration: underline;
-}
-
 .footer-bold {
   border-left: 1px solid rgb(224, 224, 224);
   padding-left: 2rem;
@@ -527,6 +501,20 @@ nav {
 }
 
 .footer-end > a:hover {
+  text-decoration: underline;
+}
+
+.footer__list-sub li {
+  margin-top: 1rem;
+}
+
+.footer__list-sub > li > a {
+  text-decoration: none;
+  color: #121212;
+  text-transform: capitalize;
+}
+
+.footer__list-sub > li > a:hover {
   text-decoration: underline;
 }
 
