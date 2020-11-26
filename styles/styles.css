@@ -390,7 +390,6 @@ article h1 {
 .newsletter__main {
   display: grid;
   grid-template-columns: 33.3% 33.3% 33.3%;
-  border-bottom: 5rem;
   padding-bottom: 5rem;
   border-bottom: 1px solid #121212;
 }
@@ -421,7 +420,7 @@ article h1 {
 }
 
 .card:hover {
-  box-shadow: .2rem .6rem 1rem rgba(0,0,0, .1);
+  box-shadow: 0.2rem 0.6rem 1rem rgba(0, 0, 0, 0.1);
 }
 
 .card__img {
