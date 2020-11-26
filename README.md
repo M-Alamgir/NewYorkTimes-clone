@@ -15,24 +15,11 @@ HTML and CSS
 
 ## Getting Started
 
-**Feel free to use this project**
-
-### Prerequisites
-
-### Setup
-
-### Install
-
-### Usage
-
-### Run tests
-
-### Deployment
-
-
+Clone this project for use.
 
 ## Authors
-*
+
+- Alamgir
 
 - GitHub: [@githubhandle](https://github.com/ourandco)
 - Twitter: [@twitterhandle](https://twitter.com/Alphacrescent1)
