@@ -377,14 +377,86 @@ article h1 {
 
 .row-1 {
   float: left;
-  margin-right: 2.5rem;
+  margin-right: 1.5rem;
   margin-bottom: 1rem;
 }
 
 .row-2 {
   float: left;
-  margin-right: 2.5rem;
+  margin-right: 1.5rem;
   margin-bottom: 1rem;
+}
+
+.newsletter__main {
+  display: grid;
+  grid-template-columns: 33.3% 33.3% 33.3%;
+  border-bottom: 5rem;
+  padding-bottom: 5rem;
+  border-bottom: 1px solid #121212;
+}
+
+.newsletter__main:not(:last-child) {
+  margin-right: 1.5rem;
+}
+
+.newletter__header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.newletter-link {
+  text-decoration: none;
+  color: #777;
+}
+
+.card {
+  position: relative;
+  cursor: pointer;
+  height: 33rem;
+  width: 30rem;
+  background-color: #fff;
+  border: 1px solid rgb(228, 228, 228);
+  padding: 2rem;
+}
+
+.card:hover {
+  box-shadow: .2rem .6rem 1rem rgba(0,0,0, .1);
+}
+
+.card__img {
+  width: 10rem;
+}
+
+.card__img-text-1 {
+  font-size: 1.3rem;
+  color: #121212;
+  margin-top: 1rem;
+}
+
+.card__img-text-2 {
+  font-size: 1.5rem;
+  color: #121212;
+  margin-top: .2rem;
+  font-weight: bold;
+}
+
+.card__img-text-3 {
+  font-size: 1.5rem;
+  color: #121212;
+  margin-top: 1rem;
+}
+
+.card-link {
+  position: absolute;
+  left: 2rem;
+  bottom: 2rem;
+  font-size: 1.5rem;
+}
+
+.card-link-a {
+  text-decoration: none;
+  color: rgb(50, 104, 145);
 }
 
 .suggested-img {
