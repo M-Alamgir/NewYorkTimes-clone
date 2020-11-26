@@ -350,6 +350,35 @@ article h1 {
   margin: 2rem 0 2rem 0;
 }
 
+.article-form {
+  width: 100%;
+  padding: 2rem 0;
+  border-radius: 1rem;
+  background-color: rgb(235, 233, 233);
+  margin-bottom: 2rem;
+  display: flex;
+  justify-content: center;
+}
+
+.form-list {
+  list-style: none;
+  width: 40rem;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  margin-bottom: 1rem;
+}
+
+.form-list-l {
+  font-weight: bold;
+  color: #666;
+  margin-bottom: 0.4rem;
+}
+
+.form-list-i {
+  padding: 1.5rem 1rem;
+}
+
 /* end article section */
 
 /* Suggested News section */
