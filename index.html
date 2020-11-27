@@ -305,11 +305,26 @@
                                     <input class="form-list-i" type="email" id="email" placeholder="Your Email here" required>
                                 </li>
                                 <li class="form-list">
-                                    <label class="form-list-l" for="comment">Comments</label>
-                                    <textarea class="form-list-i" id="comment" cols="30" rows="10" required placeholder="comments here //"></textarea>
+                                    <label for="radio" class="form-q">What is your overall opinion about this article?</label>
+                                </li>
+                                <li class="form-list radio-list">
+                                    <input type="radio" class="radio-btn" id="positive" name="rating" value="positive">
+                                    <label class="form-label" for="positive">Positive</label><br>
+                                    <input type="radio" class="radio-btn" id="negative" name="rating" value="negative">
+                                    <label class="form-label" for="negative">Negative</label><br>
+                                    <input type="radio" class="radio-btn" id="neutral" name="rating" value="neutral">
+                                    <label class="form-label" for="neutral">Neutral</label> 
+                                </li>
+                                <li class="form-list form-check">
+                                    <label for="radio" class="form-q">I want to subscribe to the newsletter</label>
+                                    <input type="checkbox" value="1">
                                 </li>
                                 <li class="form-list">
-                                    <input type="submit" class="article__end-btn" value="Submit">
+                                    <label class="form-list-l" for="comment">Comments</label>
+                                    <textarea class="form-list-i" id="comment" maxlength="250" minlength="20" cols="30" rows="10" required placeholder="Type your comment here…"></textarea>
+                                </li>
+                                <li class="form-list">
+                                    <input type="submit" class="article__end-btn" value="Send">
                                 </li>
                             </ul>
                         </form>

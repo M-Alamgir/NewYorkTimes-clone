@@ -375,6 +375,28 @@ article h1 {
   margin-bottom: 0.4rem;
 }
 
+.radio-list {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+}
+
+.form-q {
+  font-size: 1.5rem;
+  color: #333;
+}
+
+.form-label {
+  color: #333;
+  font-size: 1.5rem;
+}
+
+.form-check {
+  display: flex;
+  flex-direction: row;
+
+}
+
 .form-list-i {
   padding: 1.5rem 1rem;
 }
